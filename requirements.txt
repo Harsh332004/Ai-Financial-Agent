@@ -1,0 +1,55 @@
+# FastAPI
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# Database
+sqlalchemy[asyncio]==2.0.30
+asyncpg==0.29.0
+alembic==1.13.1
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# AI / RAG
+groq==0.9.0
+sentence-transformers==3.0.0
+faiss-cpu==1.8.0
+rank-bm25==0.2.2
+
+# OCR
+easyocr==1.7.1
+pytesseract==0.3.10
+pillow==10.3.0
+pymupdf==1.24.5
+opencv-python-headless==4.9.0.80
+
+# Market Data
+yfinance==0.2.40
+newsapi-python==0.2.7
+
+# PDF Generation
+reportlab==4.2.0
+
+# Utils
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+numpy==1.26.4
+aiofiles==23.2.1
+httpx==0.27.0
+
+# Frontend
+streamlit==1.35.0
+pandas==2.2.2
+plotly==5.22.0
+requests==2.32.3
+
+# Evaluation (evaluate.py – RAGAS RAG evaluation suite)
+ragas>=0.2.0
+langchain>=0.2.0
+langchain-groq>=0.1.0
+langchain-community>=0.2.0
+datasets>=2.18.0
+matplotlib>=3.8.0
+
